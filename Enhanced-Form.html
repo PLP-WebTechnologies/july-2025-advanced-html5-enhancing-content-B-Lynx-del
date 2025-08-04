@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Enhanced HTML5 Content & Form</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Enhanced HTML5 Showcase</h1>
+        <p>PLP Web Technologies • July 2025</p>
+    </header>
+
+    <h2>Organized Content</h2>
+
+    <h3>My Top 5 Web Dev Tools (Unordered List)</h3>
+    <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>Python & Flask</li>
+        <li>GitHub</li>
+        <li>VS Code</li>
+    </ul>
+
+    <h3>My Daily Routine (Ordered List)</h3>
+    <ol>
+        <li>Check GitHub issues</li>
+        <li>Code improvements</li>
+        <li>Design review</li>
+        <li>Test & debug</li>
+        <li>Push updates</li>
+    </ol>
+
+    <h3>Skill Tracker Table</h3>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <caption>Web Dev Skill Levels</caption>
+        <thead>
+            <tr>
+                <th>Skill</th>
+                <th>Level</th>
+                <th>Years</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>HTML</td>
+                <td>Advanced</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Intermediate</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Flask</td>
+                <td>Beginner</td>
+                <td>1</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Media</h3>
+    <figure>
+        <img src="pexels-divinetechygirl-1181271.jpg" alt="A laptop showing codes" width="600">
+
+        <figcaption>A laptop displaying web development code</figcaption>
+    </figure>
+
+    <h3>Embedded Video</h3>
+    <figure>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qz0aGYrrlhU?si=6HcmMiUFcfriLzWu"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+        <figcaption>HTML5 Tutorial by Programming with Mosh</figcaption>
+    </figure>
+
+
+    <h2>User Interaction Form</h2>
+
+    <form action="#" method="POST" autocomplete="on">
+
+        <fieldset>
+            <legend>Personal Details</legend>
+
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required placeholder="Your full name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="example@domain.com" autocomplete="email">
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" pattern="[A-Za-z0-9_]{5,15}" required
+                placeholder="5-15 letters or numbers">
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferences</legend>
+
+            <label for="favcolor">Favorite Color:</label>
+            <select id="favcolor" name="favcolor" required>
+                <option value="">--Choose--</option>
+                <option value="lilac">Lilac</option>
+                <option value="darkpurple">Dark Purple</option>
+                <option value="skyblue">Sky Blue</option>
+            </select>
+
+            <label for="feedback">Feedback:</label>
+            <textarea id="feedback" name="feedback" minlength="10" maxlength="300" required
+                placeholder="Your thoughts..."></textarea>
+
+            <label>
+                <input type="checkbox" name="subscribe" value="yes" checked readonly>
+                Subscribe to Praise's updates
+            </label>
+        </fieldset>
+
+        <input type="submit" value="Submit Form">
+    </form>
+
+    <footer>
+        <p>Created by Praise Becklyn • PLP Web Technologies 2025</p>
+    </footer>
+
+</body>
+
+</html>
